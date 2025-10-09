@@ -1,0 +1,48 @@
+/* elemental selector */
+h1 {
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
+body {
+  color: royalblue;
+}
+
+/* grouping selectors */
+h1,
+h2,
+p {
+  color: aliceblue;
+}
+
+/* id & class selectors */
+/* id is unique */
+/* class can set for than one element */
+#id {
+  color: aliceblue;
+}
+.class {
+  color: aliceblue;
+}
+
+/* div & span selectors */
+/* <div>
+    <h1>Welcome</h1>
+    <p>Lorem ipsum <span>dolor sit amen</span> connecter </p>
+</div> */
+div {
+  color: aliceblue;
+}
+span {
+  color: rebeccapurple;
+}
+
+/* Inheritance */
+/* search it */
+
+/* Universal selectors */
+* {
+  padding: 0;
+  margin: 0;
+}

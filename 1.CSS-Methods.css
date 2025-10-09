@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+/* HTML */
+/* <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS-Methods.css">
+    <link rel="stylesheet" href="./CSS-Methods.css" />
     <title>Document</title>
     <style>
       h2 {
@@ -13,16 +14,23 @@
     </style>
   </head>
   <body>
-    <!-- inline css -->
+    /* <!-- inline css -->
     <h1 style="color: cadetblue; font-size: 3rem">
       Methods of applying the css
-    </h1>
-
+    </h1> */
+/*
     <!-- internal css -->
-    <h2>Methods of applying the css</h2>
+    <h2>Methods of applying the css</h2> */
 
-    <!-- external css -->
+    /* <!-- external css -->
     <h3>Methods of applying the css</h3>
-
   </body>
 </html>
+
+/* CSS */
+/* external css */
+h3 {
+  color: royalblue;
+  font-size: 3rem;
+}
+

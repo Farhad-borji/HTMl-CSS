@@ -1,0 +1,14 @@
+/* color: */
+/* change the color of font */
+
+/* background-color: */
+/* change the background color */
+
+/* background: */
+/* can set image as background */
+
+/* rgb */
+/* 0 to 255 */
+test {
+    color: rgb(red, green, blue);
+}
