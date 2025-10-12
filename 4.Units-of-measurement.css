@@ -1,0 +1,69 @@
+/*
+    width
+    height
+    px
+    font-size
+    em
+    rem
+    vw
+    vh
+*/
+
+/* width & height */
+.test {
+  width: 30px;
+  height: 100px;
+}
+
+/* px */
+/* absolute unit */
+/* don't change with the screen */
+
+/* percent */
+/* Relative unit to its parent */
+/* change with parent */
+.test {
+  width: 50%;
+  height: 70%;
+}
+
+/* font-size */
+/* change the text size */
+.test {
+  font-size: 20px;
+}
+
+/* em */
+/* 1 em = 16 px */
+/* 16px is the browser default */
+/* relative to the parent */
+.test {
+  width: 2em; /* its 32px */
+  height: 1em; /* its 16px */
+}
+
+/* rem */
+/* relative to the HTML root */
+html {
+  font-size: 10px;
+}
+.test {
+  width: 2rem;
+  height: 1rem;
+}
+
+/* vw */
+/* view width */
+/* relative to the screen width */
+/* 50vw = 50% of the screen width */
+.test {
+  width: 50vw;
+}
+
+/* vh */
+/* view height */
+/* relative to the screen height */
+/* 50vh = 50% */
+.test {
+  height: 50vh;
+}

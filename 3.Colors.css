@@ -12,3 +12,22 @@
 test {
     color: rgb(red, green, blue);
 }
+
+/* rgba */
+/* last number is opacity and it between 0 and 1 */
+test {
+    color: rgba(red, green, blue, alpha);
+}
+
+/* HEX */
+/* #RRGGBB */
+/* 0 to 16 */
+/* 0,1,...,8,9,a,b,c,d,e,f */
+/* ff is the most and 00 the least */
+test {
+    color: #2ab8ff;
+}
+
+/* sites for color palette */
+/* https://flatuicolors.com/ */
+/* https://coolors.co/ */

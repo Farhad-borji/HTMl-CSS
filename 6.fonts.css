@@ -1,0 +1,131 @@
+/* font-size */
+/* change the text size */
+.test {
+  font-size: 20px;
+}
+
+/* font-family */
+/* change the font of the text */
+/* for sites u can set a font style to your body tag then wherever u want to have the different font ,you can overwrite it */
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.test {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* google fonts */
+/* https://fonts.google.com */
+/* u can use it to link or import a font style to your project */
+
+/* link */
+/* add the link to the head of your html file then use the font  */
+/* <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+*/
+.text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* import */
+/* add the import style to the css file then use the font */
+/* @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap'); */
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* font-face */
+/* for having the font files in your project */
+/* in font-face u give the address of the font file in your project and its name to the css for using it */
+
+/* Webfont: Yekan */
+@font-face {
+  font-family: "Yekan";
+  src: url("Yekan.eot"); /* IE9 Compat Modes */
+  src: url("Yekan.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Yekan.woff2") format("woff2"),
+    /* Modern Browsers */ url("Yekan.woff") format("woff"),
+    /* Modern Browsers */ url("Yekan.otf") format("opentype"),
+    /* Open Type Font */ url("Yekan.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+.text {
+  font-family: "yekan";
+}
+
+/* font-weight */
+/* change the weight of the font */
+.test {
+    font-weight: 500;
+}
+
+/* font-style */
+/* change the style of the font */
+test {
+    font-style: normal;
+}
+
+/* text-align */
+/* change the direction of the text */
+/* if u want to justify the text and direct it at the same time u should change the direction of the text in the html root */
+/* <html lang="fa" dir="rtl" */
+.text {
+    text-align: justify;
+}
+
+/* text-indent */
+/* give the  first line of text an indentation  */
+.text {
+    text-indent: 20px;
+}
+
+/* line-height */
+/* change the spacing between the lines */
+.text {
+    line-height: 2rem;
+}
+
+/* letter-spacing */
+/* change the spacing between the letters */
+.text {
+    letter-spacing: 2px;
+}
+
+/* word-spacing */
+/* change the spacing between the words */
+.text {
+    word-spacing: 8px;
+}
+
+/* text-transform */
+/* transform the text to uppercase or lowercase or ... */
+.text {
+    text-transform: uppercase;
+}
+
+/* text-decoration */
+/* change the decoration of the text */
+link {
+    text-decoration: none;
+}
+
+/* font shorthand */
+.text {
+/*  font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2rem;
+    font-family: serif; */
+    font: italic 500 20px/1.2rem serif;
+}

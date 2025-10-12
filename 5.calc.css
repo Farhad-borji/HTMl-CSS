@@ -1,0 +1,6 @@
+/* calc */
+/* can use for some math in css */
+/* - , + , * , / */
+.test {
+    width: calc(100vw - 60px);
+}
