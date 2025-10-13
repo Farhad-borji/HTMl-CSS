@@ -1,0 +1,36 @@
+/* positions */
+/* change the positions of objects */
+/* relative */
+/* it will change the position of object relative to its first position */
+/* and it will not interrupt will other elements or change there places */
+.test {
+  position: relative;
+  top: 50px; /* it take distance from top */
+  left: 20px; /* it take distance from left */
+}
+
+/* absolute */
+/* it will change the position relative to it parent that have position relative, and if the parents don't have the position relative it will change position relative to the body tag */
+.test {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+
+/* sticky */
+/* stick to position relative to it parent u give to it and it will stay in the screen until it parent goes out of screen */
+.test {
+  position: sticky;
+  top: 10px;
+}
+
+/* fixed */
+/* it will fix itself to the position u give to it relative to screen and stay there */
+.test {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* z-index */
+/* it Specifies what element to be on top and what be under */

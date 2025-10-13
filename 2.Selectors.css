@@ -52,3 +52,45 @@ span {
 ul li a {
   color: aliceblue;
 }
+
+/* combinator */
+/* it will select it's own direct children */
+/* it get << > >> after parent */
+.parent > .direct-children {
+  color: aliceblue;
+}
+
+/* select with attributes */
+a[href] {
+  color: red;
+}
+a[href="https://google.com"] {
+  color: blue;
+}
+
+
+/* pseudo selectors */
+
+/* :first-child */
+/* get the first child of parent to make changes on it */
+.test:first-child{
+    color: #451366;
+}
+
+/* :last-child */
+/* like first */
+.test:last-child {
+    color: #451366;
+}
+
+/* ::first-letter */
+/* select the first letter */
+.test::first-letter {
+    color: #451366;
+}
+
+/* ::first-line */
+/* select the first line */
+.test::first-line {
+    color: #451366;
+}

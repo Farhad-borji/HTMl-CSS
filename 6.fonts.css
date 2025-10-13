@@ -101,6 +101,12 @@ test {
   text-align: justify;
 }
 
+/* vertical-align */
+/* change the vertical position */
+.text {
+  vertical-align: center;
+}
+
 /* text-indent */
 /* give the  first line of text an indentation  */
 .text {

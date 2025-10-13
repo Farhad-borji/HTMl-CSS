@@ -1,0 +1,64 @@
+/* pseudo elements */
+/* it have two << :: >> */
+
+/* ::before */
+/* add content before the selected element */
+/* it should get content to work,Even if it's be empty. */
+/* it's inline element */
+/* if u want give it height, u should change it display to block or inline-block */
+.test::before {
+    content: "";
+    color: aliceblue;
+    font-size: medium;
+    background: #451366;
+}
+
+/* ::after */
+/* its all like ::before but it will add content to the last of element */
+.test::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url("./image.png") center/cover;
+    vertical-align: center;
+}
+
+
+/* pseudo class */
+/* it  have one << : >> */
+
+/* :hover */
+/* it will take change the changes u give to it after u hover the elements */
+
+.test:hover {
+    color: aqua;
+    font-size: 2rem;
+    border: 2px solid  #794561;
+    /* cursor */
+    /* change the cursor for element when hover on it */
+    cursor: pointer;
+}
+
+/* :first-child */
+/* get the first child of parent to make changes on it */
+.test:first-child{
+    color: #451366;
+}
+/* :last-child */
+/* like first */
+.test:last-child {
+    color: #451366;
+}
+
+/* ::first-letter */
+/* select the first letter */
+.test::first-letter {
+    color: #451366;
+}
+
+/* ::first-line */
+/* select the first line */
+.test::first-line {
+    color: #451366;
+}

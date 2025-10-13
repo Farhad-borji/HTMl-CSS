@@ -1,0 +1,16 @@
+/* box-shadow */
+/* give shadow to the box */
+/* box-shadow: X,Y,Blur,Spread(Optional),Color */
+.box {
+    box-shadow: -2px 3px 10px 1px gray ;
+}
+
+/* text-shadow */
+/* give shadow to the text */
+.text {
+    font-size: 2rem;
+    text-shadow: 5px -5px 5px gray;
+}
+
+/* https://cssgenerator.org/ */
+/* https://css3generator.com/ */
