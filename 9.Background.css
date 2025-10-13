@@ -1,0 +1,58 @@
+/* https://unsplash.com */
+
+/* background */
+/* for using an image for background we use url */
+.test {
+  background: url("./image.jpg");
+}
+
+/* background-repeat */
+/* for changing the repeat role of image in background */
+.test {
+  background: url("./image.jpg");
+  background-repeat: no-repeat;
+}
+
+/* background-size */
+/* changing the size of image */
+/* cover ==> cover the hole background,changing the image aspect ratio to fit the background */
+/* contain ==> contain the background, but the image aspect ratio do not changes */
+.test {
+  background: url("./image.jpg");
+  background-size: cover;
+}
+
+/* background-position */
+/* set the position of the image */
+/* can get the measurement */
+.test {
+  background: url("./image.jpg");
+  background-position: center;
+  background-position: 10px 0;
+}
+
+/* background-attachment */
+/* fix ==> fix the image and it's not  scrollable */
+.test {
+  background: url("./image.jpg");
+  background-attachment: fixed;
+}
+
+/* shorthand */
+/* url position/size repeat attachment */
+.test {
+  background: url("./image.jpg") top/contain no-repeat fixed;
+}
+
+/* gradient */
+/* https://cssgradient.io */
+/* linear-gradient*/
+/* get two or more color */
+/* can get ?deg or set to right/left top/... */
+.test {
+  background: linear-gradient(to right top, red,blue,green);
+}
+/* radial-gradient */
+.test {
+  background: radial-gradient(red,blue,green);
+}
