@@ -1,3 +1,20 @@
+/*
+    font-size
+    font-family
+    google fonts
+    font-face
+    font-weight
+    font-style
+    text-align
+    text-indent
+    line-height
+    letter-spacing
+    word-spacing
+    text-transform
+    text-decoration
+    font shorthand
+                      */
+
 /* font-size */
 /* change the text size */
 .test {
@@ -67,13 +84,13 @@ body {
 /* font-weight */
 /* change the weight of the font */
 .test {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /* font-style */
 /* change the style of the font */
 test {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* text-align */
@@ -81,51 +98,51 @@ test {
 /* if u want to justify the text and direct it at the same time u should change the direction of the text in the html root */
 /* <html lang="fa" dir="rtl" */
 .text {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* text-indent */
 /* give the  first line of text an indentation  */
 .text {
-    text-indent: 20px;
+  text-indent: 20px;
 }
 
 /* line-height */
 /* change the spacing between the lines */
 .text {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 /* letter-spacing */
 /* change the spacing between the letters */
 .text {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 /* word-spacing */
 /* change the spacing between the words */
 .text {
-    word-spacing: 8px;
+  word-spacing: 8px;
 }
 
 /* text-transform */
 /* transform the text to uppercase or lowercase or ... */
 .text {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /* text-decoration */
 /* change the decoration of the text */
 link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* font shorthand */
 .text {
-/*  font-style: italic;
+  /*  font-style: italic;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2rem;
     font-family: serif; */
-    font: italic 500 20px/1.2rem serif;
+  font: italic 500 20px/1.2rem serif;
 }

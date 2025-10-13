@@ -1,0 +1,62 @@
+/* Block */
+/* block element are stack vertically */
+/* they contain the widths of the screen */
+
+/* inline */
+/* inline elements are stack side by side */
+/* they contain the width of the object */
+
+/* Display */
+/* change the display of the element */
+.test {
+    display: block;
+    display: inline;
+}
+
+/* horizontal centering */
+/* inline elements can be center by text-align */
+/* but blocks objects can be centering by text-align but the element fo not center */
+/* for centering u should set the left&right margin to be auto */
+
+/* list-style-type */
+/* change the style-type of the links and ... */
+.link {
+    list-style-type: none;
+}
+
+/* padding & margin in inline */
+/* browsers don't support horizontal padding or margin for inline elements */
+/* u can change the display the elements to blocks to fix the problem */
+
+/* inline-block */
+/* its like inline elements but don't have the inline problem and u can set the horizontal padding and margin */
+
+/* box-sizing */
+/* if set to border-box, padding don't add to widths of box and it will change the sizing of inside the box */
+.box {
+    box-sizing: border-box;
+}
+
+/* opacity */
+/* change the opacity of object */
+/* at 0 it's invisible but it exist and work */
+/* clickable */
+.test {
+    opacity: 0.1;
+}
+
+/* visibility */
+/* change the visibility */
+/* not clickable */
+.test {
+    visibility: hidden;
+}
+
+/* display: none; */
+/* it will delete the object, it's take no scape anymore */
+.test {
+    display: none;
+}
+
+/* last role order */
+/* if u set style multiple time, it will set the last style u written */

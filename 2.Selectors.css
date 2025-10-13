@@ -46,3 +46,9 @@ span {
   padding: 0;
   margin: 0;
 }
+
+/* Descendant selectors */
+/* can select parent to child by tag or class or id */
+ul li a {
+  color: aliceblue;
+}

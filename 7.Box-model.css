@@ -1,0 +1,63 @@
+/*
+    padding
+    border
+    margin
+    outline
+    box-sizing
+                */
+
+/* padding */
+/* give it spacing around the object in box */
+.object {
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  /* top right bottom left */
+  padding: 10px 8px 15px 20px;
+  /* top , left and right , bottom */
+  padding: 10px 15px 20px;
+  /* top&bottom , left&right */
+  padding: 10px 20px;
+  /* around the object */
+  padding: 15px;
+}
+
+/* border */
+.box {
+  /* change the border style */
+  border-style: solid;
+  /* change the border width */
+  border-width: 2px;
+  /* change the color of the border */
+  border-color: dimgray;
+  /* shorthand */
+  border: 2px solid dimgray;
+  /* round the edges of the border */
+  border-radius: 20px;
+  /* u can give border to any direction u want or to all of them */
+  border-right: 1px solid #251674;
+  /* and the same for border-radius */
+  border-bottom-left-radius: 10px;
+}
+
+/* margin */
+/* make spacing around the box */
+.box {
+  /* its like padding  */
+  margin: 20px;
+}
+
+/* outline */
+/* its like border with some difference */
+.object {
+  outline: 2px solid #984126;
+  /* it will offset the outline */
+  outline-offset: -10px;
+}
+
+/* box-sizing */
+/* if set to border-box, padding don't add to widths of box and it will change the sizing of inside the box */
+.box {
+    box-sizing: border-box;
+}
