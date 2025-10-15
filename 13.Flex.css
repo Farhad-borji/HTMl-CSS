@@ -1,0 +1,31 @@
+/* Flex */
+/* layout the elements */
+/* layout in one direction, either vertically or horizontally. */
+.test {
+    display: flex;
+    /* flex-direction */
+    /* change the direction of layout */
+    /* default is on row (vertically) */
+    /* row/column-reverse ==> reverse the layout */
+    flex-direction: column;
+    /* flex-wrap */
+    /* set the wrap option on or off */
+    /* default is no-wrap */
+    flex-wrap: wrap;
+    /* flex-flow */
+    /* is a shorthand  for direction and wrap */
+    flex-flow: column wrap;
+    /* justify-content */
+    /* justify elements in the direction of flex-direction */
+    /* space-between ==> share the space between the elements */
+    /* space-around ==> share the space between and around the elements */
+    justify-content: flex-start;
+    /* align-item  */
+    /* work in the opposite direction of flex-direction */
+    /* baseline set the text in one line Regardless of their font-size */
+    align-items: center;
+    /* align-content */
+    /* only use when our elements wrapped */
+    /* and it will align the flex lines */
+    align-content: space-around;
+}
