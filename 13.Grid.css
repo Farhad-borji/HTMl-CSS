@@ -1,0 +1,58 @@
+/* Gird */
+/* it like flex but can set elements in columns and rows at the same time like tables */
+/*  column grid lines ==> vertical lines between the cells */
+/* row grid lines ==> horizontal lines between cells */
+/* gap ==> the space between cells */
+
+.container {
+  display: grid;
+
+  grid-template-columns: 200px 200px 200px 200px;
+  /* make four columns of cells with width of 200px */
+  grid-template-columns: 200px 200px 200px;
+  /* make three columns with width of 200px */
+  grid-template-columns: repeat(4, 150px);
+  /* makes four columns of cells with widths of 150px */
+  grid-template-columns: repeat(4, auto);
+  /* makes four columns of cells that fills the browser width */
+  grid-template-columns: 200px auto 200px;
+  /* auto ==> change the widths to fill the screen width */
+  grid-template-columns: 1fr 1fr 2fr;
+  /* fr ==> fraction ==> set the widths like auto but you can change the ratio to each other */
+  grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+  /* auto-fill ==> makes the cells to be closer to minimum */
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  /* auto-fit ==> makes the cells to be closer to maximum */
+
+  grid-template-rows: 100px 120px 150px;
+  /* make three rows with height of ...px */
+  /* if we have cells more than the number of rows We specified the there rows height are the default size */
+  /* can use auto and fr like columns */
+  grid-template-rows: minmax(50px, auto);
+  /* minmax() ==> specified the minimum and maximum of height that cells can be */
+
+  gap: 10px;
+  /* make a 10px gap between cells */
+  row-gap: 10px;
+  /* makes gaps between rows */
+  column-gap: 10px;
+  /* makes gaps between columns */
+}
+
+.first-cell {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* the selected cell contain space between the start and end grid-lines u give to it. */
+    /* the numbers are the grid lines. so if u say 1 it means the left of the first cell and if u say 4 it means the end of cell three */
+    grid-row-start: 2;
+    grid-row-end: 5;
+    /* also can use in rows */
+}
+
+.container {
+    justify-content: space-evenly;
+    /* like flex */
+    /* space-evenly ==> evenly divide spacing */
+    align-content: center;
+    /* like flex */
+}
