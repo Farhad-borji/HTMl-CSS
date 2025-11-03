@@ -1,0 +1,30 @@
+/* media query */
+/* any style that written in the this media only works in its given widths of screen */
+/* 0 - 480px ==> mobile devices
+   481px - 768px ==> ipads,tables
+   769px - 1024px ==> laptops,small screens
+   1025px - 1200px ==> desktops,large screens
+   1201px - more ==> extra large screen,TV
+    */
+
+@media (max-width: 480px) {
+  .test {
+    width: 300px;
+    background-color: blueviolet;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .test {
+    width: 500px;
+    background-color: royalblue;
+  }
+}
+
+/* we can use height instead of width for media query */
+
+/* we can code the different media query in different files and link them Individually to html file. */
+
+/* the link added to html head tag */
+
+/* <link rel="stylesheet" href="./mobile-style.css" media="(max-width: 480px)" */
