@@ -1,0 +1,37 @@
+/* transition */
+
+.test {
+  background-color: slateblue;
+
+  /* transition-property */
+  /* what's transition for */
+  /* can use << all >> for property */
+  transition-property: background, border-radius;
+
+  /* transition-duration */
+  /* duration of transition */
+  transition-duration: 3s;
+
+  /* transition-delay */
+  /* delay before transition start */
+  transition-delay: 2s;
+
+  /* transition-timing-function */
+  /* how transition happen */
+  /* the default is ease */
+  /* ease ==> slow,fast,slow */
+  /* linear ==> constant */
+  /* ease-in ==> slow,fast,faster */
+  /* ease-out ==> fast,slow,slower */
+  /* ease-in-out ==> slow,fast,slow */
+  transition-timing-function: ease-in;
+
+  /* shorthand */
+  transition: background 1s linear, border-radius 2s 1s ease-in;
+}
+
+/* when hover on that element, the transition will happen */
+.test:hover {
+  background-color: red;
+  border-radius: 50%;
+}

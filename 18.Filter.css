@@ -1,0 +1,36 @@
+/* !filter */
+/* !blur */
+/* !brightness */
+/* !contrast */
+
+.image {
+  /* !blur */
+  /* blur the image */
+  filter: blur(1px);
+
+  /* !brightness */
+  /* 100% is the base */
+  filter: brightness(100%);
+
+  /* !contrast */
+  /* change the contrast */
+  filter: contrast(200%);
+
+
+  /* !grayscale */
+  /* can make the image black and white  */
+  filter: grayscale(10%);
+
+  /* !opacity  */
+  /* exactly like opacity */
+  filter: opacity(50%);
+
+  /* !saturate */
+  /* make the image warmer or colder */
+  filter: saturate(200%);
+
+  /* !drop-shadow */
+  /* like box-shadow but it shadow the image it self not the box of it */
+  filter: drop-shadow(10px 10px 20px gray);
+
+}

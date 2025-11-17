@@ -1,0 +1,38 @@
+/* transform */
+/* translate */
+/* scale */
+/* rotate */
+/* skew */
+
+
+
+
+/* transform */
+/* it translate the element from there middle */
+.test {
+    /* translate */
+    /* move the element 20px to the right */
+    /* if give the negative number it move the opposite direction */
+    transform: translateX(20px);
+    /* move the element 20px to bottom */
+    transform: translateY(20px);
+    /* first is the X and second one is Y*/
+    transform: translate(X Y);
+
+    /* scale */
+    /* make the element smaller or bigger */
+    transform: scaleX();
+    transform: scaleY();
+    transform: scale(X Y);
+
+    /* rotate */
+    /* rotate the element in X Y Z */
+    transform: rotateX();
+    transform: rotateY();
+    transform: rotateZ();
+
+    /* skew */
+    transform: skewX(30deg);
+    transform: skewY(20deg);
+    transform: skew(X Y);
+}

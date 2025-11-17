@@ -1,0 +1,37 @@
+/* animation */
+/* like transitions with more tools */
+
+.test {
+    /* animation-name */
+    /* applies the animation */
+    animation-name: name-of-animation;
+
+    /* animation-duration */
+    /* set the duration of animation */
+    animation-duration: 10s;
+
+    /* animation-iteration-count */
+    /* how many time animation happens */
+    animation-iteration-count: infinite;
+
+    /* shorthand */
+    animation: name-of-animation 10s 2;
+}
+
+/* @keyframes name-of-animation */
+/* animation function */
+@keyframes name-of-animation {
+    50% {
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    75% {
+        width: 200px;
+        background-color: royalblue;
+    }
+
+    100% {
+        width: 700px;
+    }
+}

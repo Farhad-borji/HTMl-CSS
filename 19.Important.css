@@ -1,0 +1,15 @@
+/* !important */
+/* give that line of code Priority and it will not rewritable */
+/* not suggested */
+
+.test {
+    color: blue;
+}
+
+.test {
+    color: red !important;
+}
+
+.test {
+    color: brown;
+}

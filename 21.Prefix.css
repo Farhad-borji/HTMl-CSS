@@ -1,0 +1,12 @@
+/* !prefix */
+/* when some browser version do not support some
+tags , we use prefix of that browser */
+
+/* we can check the prefix for browser that needed or not in the following website */
+/* https://autoprefixer.github.io/ */
+/* https://caniuse.com/ */
+
+.img {
+    -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+}

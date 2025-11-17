@@ -1,0 +1,11 @@
+/* !variables */
+/* when u set a variable in a parent, u can use it in child of that parent, u can set it in :root and use it. */
+:root {
+  --text-color: red;
+  --border: 2px solid black;
+}
+
+.p-test {
+  color: var(--text-color);
+    border: var(--border);
+}
