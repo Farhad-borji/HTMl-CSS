@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 1512px;
+  max-width: 1512px;
   background-color: #ffffff;
   margin: auto;
   padding: 134px 110px 74px;
@@ -60,12 +60,14 @@ body {
 
 .main {
   width: 70%;
-  height: 2000px;
 }
 
 .navbar {
   position: sticky;
   top: 50px;
+  box-shadow: 0px -30px 0px 30px #ffffff;
+  background-color: #ffffff;
+  z-index: 998;
 }
 
 .navbar__list {
@@ -88,7 +90,7 @@ body {
 .navbar__list a:hover {
   color: #7c3aed;
   text-decoration: underline;
-  text-underline-offset: 15px;
+  text-underline-offset: 11px;
   text-decoration-thickness: 2.5px;
 }
 
@@ -104,6 +106,7 @@ body {
   box-shadow: 0px 0px 53px 37px #e6ddec40, 0px 0px 4px 0px #6308fd1a;
   position: sticky;
   top: 50px;
+  z-index: 999;
 }
 
 .aside__header {
@@ -139,4 +142,151 @@ body {
   width: 100%;
   margin-top: 27px;
   box-shadow: 0px 0px 5.9px 0px #6308fd80 inset;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 83px;
+}
+
+.introduction {
+  width: 100%;
+  margin-top: 42px;
+}
+
+.introduction__h1 {
+  font-family: "YekanBakhBold", "Courier New", Courier, monospace;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.introduction__p {
+  font-family: "VazirmatnRegular", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.for-who,
+.bootcamp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-who__h1 {
+  font-family: "YekanBakhBold", "Courier New", Courier, monospace;
+  font-size: 28px;
+}
+
+.for-who__h1 span {
+  color: #8a6ef8;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 17px;
+  margin-top: 44px;
+  padding: 4px;
+}
+
+.card {
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  box-shadow: 0px 0px 22px 10px #e4a4ff29;
+}
+
+.card__icon {
+  width: 50px;
+  margin-bottom: 26px;
+}
+
+.card__h1 {
+  font-family: "YekanBakhBold", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.card__p {
+  font-size: 13px;
+  text-align: justify;
+  color: #282828e5;
+}
+
+.bootcamp {
+  box-shadow: 0px 0px 10px 0px #00000014;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.bootcamp__h1 span {
+  color: #8a6ef8;
+}
+
+.flex-cards {
+  background: url("../images/Line\ 16.png") 111px 45px/654px no-repeat;
+  width: 100%;
+  margin-top: 44px;
+  display: flex;
+  position: relative;
+  height: 330px;
+}
+
+.flex-card {
+  max-width: 176px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-card__h1 {
+  font-size: 16px;
+  margin-top: 19px;
+}
+
+.flex-card__p {
+  font-family: iranyekanwebregular, Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  font-size: 12px;
+  color: #282828e5;
+  text-align: center;
+}
+
+.next {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+
+.react {
+  position: absolute;
+  left: 180px;
+  top: 15px;
+}
+
+.git {
+  position: absolute;
+  left: 342px;
+  top: 80px;
+}
+
+.js {
+  position: absolute;
+  right: 140px;
+  top: 15px;
+}
+
+.html {
+  position: absolute;
+  right: 0px;
+  top: 83px;
 }
