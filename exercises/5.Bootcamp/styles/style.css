@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1512px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 134px 110px 74px;
+  font-family: "YekanBakhMedium", Arial, Helvetica, sans-serif;
+  color: #282828;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.header__image {
+  width: 477px;
+}
+
+.sing-in__header {
+  color: #8a6ef8;
+  font-family: "YekanBakhBold", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+}
+.sing-in__paragraph {
+  font-family: "YekanBakhMedium", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin-right: 50px;
+  color: #282828;
+}
+
+.button {
+  background-color: #8a6ef8;
+  font-family: "YekanBakhBold", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 8px 53px;
+  font-size: 20px;
+  border: none;
+}
+
+.sing-in__button {
+  width: 257px;
+  height: 56px;
+  margin-top: 42px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  margin-top: 154px;
+}
+
+.main {
+  width: 70%;
+  height: 2000px;
+}
+
+.navbar {
+  position: sticky;
+  top: 50px;
+}
+
+.navbar__list {
+  border: dashed 1px #6308fd33;
+  padding: 12px 30px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.navbar__list a {
+  font-family: "VazirmatnRegular", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #282828;
+  text-decoration: none;
+}
+
+.navbar__list a:hover {
+  color: #7c3aed;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 2.5px;
+}
+
+.aside {
+  width: 30%;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 53px 37px #e6ddec40, 0px 0px 4px 0px #6308fd1a;
+  position: sticky;
+  top: 50px;
+}
+
+.aside__header {
+  font-family: "YekanBakhBold", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.aside__prices {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.aside__price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.aside__prices--main-price {
+  color: #00000059;
+}
+
+.aside__prices--festival-price {
+  font-family: "YekanBakhBold", Arial, Helvetica, sans-serif;
+  margin-top: 27px;
+}
+
+.aside__prices--festival-price .price {
+  color: #6308fd;
+}
+
+.aside__button {
+  width: 100%;
+  margin-top: 27px;
+  box-shadow: 0px 0px 5.9px 0px #6308fd80 inset;
+}
