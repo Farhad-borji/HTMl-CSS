@@ -24,10 +24,10 @@
 }
 
 @font-face {
-  font-family: VazirmatnRegular;
+  font-family: "VazirmatnRegular";
   src: url('../fonts/Vazirmatn-Regular.woff2') format('woff2');
 }
 @font-face {
-  font-family: VazirmatnSemiBold;
+  font-family: "VazirmatnSemiBold";
   src: url('../fonts/Vazirmatn-SemiBold.woff2') format('woff2');
 }

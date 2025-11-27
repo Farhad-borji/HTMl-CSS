@@ -232,7 +232,7 @@ body {
 }
 
 .flex-cards {
-  background: url("../images/Line\ 16.png") 111px 45px/654px no-repeat;
+  background: url("../images/Line\ 16.png") 90px 45px/654px no-repeat;
   width: 100%;
   margin-top: 44px;
   display: flex;
@@ -263,30 +263,123 @@ body {
 
 .next {
   position: absolute;
-  left: 30px;
+  left: 9px;
   top: 80px;
 }
 
 .react {
   position: absolute;
-  left: 180px;
+  left: 159px;
   top: 15px;
 }
 
 .git {
   position: absolute;
-  left: 342px;
+  left: 321px;
   top: 80px;
 }
 
 .js {
   position: absolute;
-  right: 140px;
+  right: 150px;
   top: 15px;
 }
 
 .html {
   position: absolute;
-  right: 0px;
+  right: 15px;
   top: 83px;
+}
+
+.headlines {
+  background-color: #8a6ef8;
+  border-radius: 25px;
+  padding: 33px 52px;
+}
+
+.headlines__header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-family: "VazirmatnSemiBold", "Courier New", Courier, monospace;
+  margin-bottom: 35px;
+}
+
+.headlines__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.headline {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 15px 20px;
+  transition: all 0.3s ease;
+}
+
+.headline > summary {
+  cursor: pointer;
+  font-family: Vazirmatnsemibold, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  transition: all 0.1s;
+}
+
+.headline__list {
+  margin: 22px;
+  color: #282828cc;
+}
+
+.headline[open] > summary {
+  color: #8a6ef8;
+}
+
+.milad__container {
+  display: flex;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.milad__images {
+  position: relative;
+}
+
+.milad__img {
+  z-index: 20;
+}
+
+.dot1 {
+  position: absolute;
+  left: 5px;
+  top: 48%;
+  z-index: -1;
+}
+.dot2 {
+  position: relative;
+  right: 30px;
+  bottom: 50px;
+  z-index: -1;
+}
+
+.milad__intro {
+  padding: 40px 0;
+}
+.milad__intro h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.milad__intro h4 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.milad__intro p {
+  text-align: justify;
+  line-height: 250%;
+  word-spacing: 1px;
 }
